@@ -141,14 +141,14 @@ input, button, textarea{
 
     .button {
         width: 22%;
-        padding: 10px;
+        padding: 12px;
         margin-bottom: 15px;
     }
 }
 
 @media(max-width: 450px){
     .result {
-        padding: 30px 15px 5px;
+        padding: 34px 15px 5px;
     }
 
     .block-buttons {
@@ -161,7 +161,6 @@ input, button, textarea{
 
 @media(max-width: 400px){
     .title {
-
         font-size: 27px;
     }
 

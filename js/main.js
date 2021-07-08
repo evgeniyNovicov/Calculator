@@ -228,9 +228,9 @@ function createResultNumber() {
         }
     }
     if (resultTwoFinish) {
-        result.value = resultTwoFinish
+        result.value = resultTwoFinish.toFixed(4)
     } else {
-        result.value = resultFinish
+        result.value = resultFinish.toFixed(4)
     }
 }
 function createPrimeAnimation() {
